@@ -1,0 +1,599 @@
+{
+	"id": "e46809f5-18b0-4573-85e3-21284981b038",
+	"name": "ReqRes.in",
+	"timestamp": "2024-09-04T21:05:08.950Z",
+	"collection_id": "14776082-f589dd12-7d15-4748-8785-53df134316b7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 42,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-04T21:05:05.121Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "86713dfa-3c1c-4e8d-bad3-2a13afe68152",
+			"name": "List of Users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"User data is correct": true,
+				"Content-Type is application/json": true,
+				"Page size is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User data is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Page size is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"User data is correct": true,
+					"Content-Type is application/json": true,
+					"Page size is correct": true
+				}
+			]
+		},
+		{
+			"id": "1d360f8f-6655-4523-8819-28ff45cc448b",
+			"name": "Single User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true,
+				"User data verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User data verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true,
+					"User data verification": true
+				}
+			]
+		},
+		{
+			"id": "2cf44f8a-9616-4e3f-92ab-87687830fb09",
+			"name": "Single User Not found",
+			"url": "https://reqres.in/api/users/23",
+			"time": 353,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				353
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "d36b803d-6db4-46c0-a0a7-f9dcf524a2c6",
+			"name": "List of Resources",
+			"url": "https://reqres.in/api/unknown",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "b8c2904d-efb9-485b-a4b2-eda61e3496c7",
+			"name": "Single Resource",
+			"url": "https://reqres.in/api/unknown/2",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "6a4e6be1-408f-4410-8964-1e7e80560e5b",
+			"name": "Single Resource Not found",
+			"url": "https://reqres.in/api/unknown/23",
+			"time": 328,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "298839d7-d4c3-43ec-ab10-7e40c557fecb",
+			"name": "Create User",
+			"url": "https://reqres.in/api/users",
+			"time": 379,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				379
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "d1751beb-6ad0-4c6c-928a-683019d70cc4",
+			"name": "Update User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 365,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				365
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "3cf89a69-2f5a-4864-ae4c-657fe5730bf1",
+			"name": "Delete User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 321,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				321
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		},
+		{
+			"id": "3a1193f0-e93c-4597-bdcd-022809161dcd",
+			"name": "Register User",
+			"url": "https://reqres.in/api/register",
+			"time": 389,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				389
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "dbb38835-9872-49b6-afb5-e203cf9cb480",
+			"name": "Register User Fail",
+			"url": "https://reqres.in/api/register",
+			"time": 329,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 500ms": true,
+				"Error message is correct": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				329
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 500ms": true,
+					"Error message is correct": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "b9758f08-7154-48cd-a871-351bc7eee57c",
+			"name": "Login Success",
+			"url": "https://reqres.in/api/login",
+			"time": 324,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				324
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		},
+		{
+			"id": "ad9956d9-013f-4f45-afe0-6265b0b6ee9f",
+			"name": "Login Fail",
+			"url": "https://reqres.in/api/login",
+			"time": 422,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 500ms": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				422
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 500ms": true,
+					"Content-Type is application/json": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3284,
+	"collection": {
+		"requests": [
+			{
+				"id": "86713dfa-3c1c-4e8d-bad3-2a13afe68152",
+				"method": "GET"
+			},
+			{
+				"id": "1d360f8f-6655-4523-8819-28ff45cc448b",
+				"method": "GET"
+			},
+			{
+				"id": "2cf44f8a-9616-4e3f-92ab-87687830fb09",
+				"method": "GET"
+			},
+			{
+				"id": "d36b803d-6db4-46c0-a0a7-f9dcf524a2c6",
+				"method": "GET"
+			},
+			{
+				"id": "b8c2904d-efb9-485b-a4b2-eda61e3496c7",
+				"method": "GET"
+			},
+			{
+				"id": "6a4e6be1-408f-4410-8964-1e7e80560e5b",
+				"method": "GET"
+			},
+			{
+				"id": "298839d7-d4c3-43ec-ab10-7e40c557fecb",
+				"method": "POST"
+			},
+			{
+				"id": "d1751beb-6ad0-4c6c-928a-683019d70cc4",
+				"method": "PUT"
+			},
+			{
+				"id": "3cf89a69-2f5a-4864-ae4c-657fe5730bf1",
+				"method": "DELETE"
+			},
+			{
+				"id": "3a1193f0-e93c-4597-bdcd-022809161dcd",
+				"method": "POST"
+			},
+			{
+				"id": "dbb38835-9872-49b6-afb5-e203cf9cb480",
+				"method": "POST"
+			},
+			{
+				"id": "b9758f08-7154-48cd-a871-351bc7eee57c",
+				"method": "POST"
+			},
+			{
+				"id": "ad9956d9-013f-4f45-afe0-6265b0b6ee9f",
+				"method": "POST"
+			}
+		]
+	}
+}
